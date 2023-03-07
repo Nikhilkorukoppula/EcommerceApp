@@ -46,7 +46,7 @@ request.setAttribute("list",list);
 <img src="https://i.gadgets360cdn.com/products/large/motorola-edge-30-pro-657x800-1645713862.jpg?downsize=*:180"width="150" height="200"><br>
 
                 <div id="left"> 
-     <img src="${l.getImage()} alt="deleted" /><br>
+     <img src="${l.getImage()}" alt="img"/><br>
                    ${l.getProductName()}<br>
                    </div>
                  

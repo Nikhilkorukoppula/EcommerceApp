@@ -44,14 +44,14 @@ body {
   padding: 6px 10px;
   margin-top: 8px;
   margin-right: 16px;
-  background: #ddd;
+  background: black;
   font-size: 17px;
   border: none;
   cursor: pointer;
 }
 
 .topnav .search-container button:hover {
-  background: #ccc;
+  background: black;
 }
 
 @media screen and (max-width: 600px) {
@@ -157,3 +157,5 @@ body {
                 height:50px;
                 clear:both;
           }
+          
+          
