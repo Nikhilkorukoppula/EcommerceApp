@@ -6,6 +6,7 @@
 <html>
 <head>
 <link rel="stylesheet" href="external.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <meta charset="ISO-8859-1">
 <title>Mobiles</title>
 </head>
@@ -43,21 +44,24 @@ request.setAttribute("list",list);
 </div>
 
 <c:forEach  items="${list}" var="l">
-<img src="https://i.gadgets360cdn.com/products/large/motorola-edge-30-pro-657x800-1645713862.jpg?downsize=*:180"width="150" height="200"><br>
 
-                <div id="left"> 
-     <img src="${l.getImage()}" alt="img"/><br>
-                   ${l.getProductName()}<br>
-                   </div>
+            <div id="left"><a href="https://www.croma.com/phones-wearables/mobile-phones/c/10"> <img src="https://i.gadgets360cdn.com/products/large/motorola-edge-30-pro-657x800-1645713862.jpg?downsize=*:180"width="150" height="200"></a><br>
+                    ${l.getProductName()}
+                   </div><br><br>
                  
                  <div id="middle"> ${l.getProductDescription()} <br>
                  ${l.getProductPrice()}/-
-                 </div>  
-                
-          
+                 </div>  <hr>
+         
              
             </c:forEach><br>
-          
-   
+          <i class="fa fa-youtube-play" style="font-size:35px"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+           <i class="fa fa-facebook" style="font-size:35px"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+            <i class="fa fa-twitter" style="font-size:35px"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+          <i class="fa fa-instagram" style="font-size:35px"></i>
+  <center>
+   <footer>
+       <b>  copyrights@ecommerce.com</b>
+   </footer></center>
 </body>
 </html>
